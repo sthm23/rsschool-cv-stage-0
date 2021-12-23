@@ -1,7 +1,7 @@
 #### Curriculum vitae
 ------
 
-![my photo](./rsschool-cv/ava.jpg)
+![my photo](https://github.com/sthm23/rsschool-cv/blob/gh-pages/ava.jpg)
 
 ### Tukhtamishev Sanjar
 
@@ -72,8 +72,8 @@ https://github.com/sthm23/rsschool-cv
 ###### 2021 by Sanjar Tukhtamishev 
 https://github.com/sthm23
 
-![Logo GitHub](./rsschool-cv/GitHub-logo.jpg)
+![Logo GitHub](https://github.com/sthm23/rsschool-cv/blob/gh-pages/GitHub-logo.jpg)
 
  https://rs.school/js/
  
-![Logo RsSchool](./rsschool-cv/rs_school.png) 
+![Logo RsSchool](https://github.com/sthm23/rsschool-cv/blob/gh-pages/rs_school.png) 
