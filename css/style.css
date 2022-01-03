@@ -1,3 +1,220 @@
+*{
+    list-style-type: none; /* delete marker in list */
+    text-decoration: none;
+    
+    margin: 0px;
+    padding: 0px;
+    
+    font-size: 16px;
+    color: black;
+
+} 
 body{
-    background-color: rgb(255, 255, 255);
+    background-color: rgb(93 80 118)
+}
+
+.footer, .header{
+    background-color:rgba(104, 4, 4, 0.705);
+}
+
+
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    
+}
+
+.nav_flex_box{
+    display: flex;
+    justify-content: end;
+    align-items: center;
+    flex-wrap: wrap;
+
+    padding: 10px;
+    margin: 10px;
+    max-height: 100px;
+    
+    
+}
+.link_contents{
+    margin-right: 15px;
+    padding-top: 0;
+    border-radius: 5px;
+
+}
+.link_contents:hover{
+    background-color: white;
+}
+
+.main_flex_box{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: end;
+    
+    
+}
+
+.content{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: space-around; */
+    align-items: left;
+
+    height: 300px;
+    width: 500px;
+    padding: 10px;
+    margin: 10px;
+    background-color:rgb(84, 109, 155);
+    box-shadow: 10px 15px 150px black;
+    border-radius: 5px;
+
+}
+.content_head{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+
+    width: 1050px;
+    padding: 10px;
+    background-color:rgb(84, 109, 155);
+    box-shadow: 10px 15px 150px black;
+    margin-bottom: 20px;
+    border-radius: 5px;
+}
+.content_item2{
+    display: flex;
+    flex-direction: column;
+
+}
+
+li{
+    padding-top: 14px;
+    text-align: left;
+
+}
+
+h2{
+    font-size: 30px;
+    text-align: left;
+    margin: 10px;
+    
+}
+
+
+
+/* footer */ 
+.foot_flex_box{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+
+
+    margin: 10px;
+    max-height: 100px;
+}
+
+/*MAIN*/
+
+/*ava*/
+
+.my_photo{
+    width: 250px;
+    border: 3px solid rgba(104, 4, 4, 0.705);
+    border-radius: 100%;
+    box-shadow: 1px 1px 50px white;
+}
+
+/* name */
+
+.name{
+    font-size: 45px;
+    /* box-shadow: 5px 5px 100px white; */
+}
+.job{
+    font-size: 20px;
+    text-align: center;
+    
+}
+
+/*contacts */
+
+.icon{
+    width: 20px;
+    margin-right: 7px;
+    
+}
+
+/*about me*/ 
+
+.about_me_text{
+    margin: 10px;
+}
+
+
+.rs_school_logo{
+    width: 70px;
+    margin: 5px;
+}
+.github_logo{
+    width: 30px;
+    margin: 5px; 
+}
+
+/* courses */
+.udemy_icon{
+    width: 20px;
+    background-color:blueviolet;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+.rs_school_icon{
+    width: 20px;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+/* language */
+
+.usa{
+    width: 20px;
+    border-radius: 40%;
+    margin-right: 7px;
+}
+.rus{
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+.uzb{
+    width: 20px;
+    border-radius: 100%;
+    margin-right: 7px;
+}
+/*education*/
+.spbgut_icon{
+    width: 20px;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+/*skills*/
+.skills_icon{
+    width: 20px;
+    border-radius: 50px;
+    margin-right: 7px;
+}
+
+.project_icon{
+    width: 20px;
+    margin-right: 7px;
+}
+/*code*/
+.code{
+    margin-top: 20px;
+    margin-left: 20px;
+    
 }
